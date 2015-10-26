@@ -450,7 +450,7 @@
 
   <!-- PAC-ROM -->
   <project path="art" name="android_art" groups="pdk" remote="pac" />
-  <project path="build" name="gimmeitorilltell/platform_build" revision="pac-6.0" >
+  <project path="build" name="gimmeitorilltell/platform_build" revision="pac" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="ss" />
@@ -518,8 +518,8 @@
   <project path="system/media" name="android_system_media" groups="pdk" remote="pac" />
   <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="pac" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="pac" />
-  <project path="pac-rom" name="gimmeitorilltell/pacman" remote="pac-6.0" />
-  <project path="vendor/pac" name="gimmeitorilltell/android_vendor_pac" revision="pac-6.0" >
+  <project path="pac-rom" name="gimmeitorilltell/pacman" remote="pac" />
+  <project path="vendor/pac" name="gimmeitorilltell/android_vendor_pac" revision="pac" >
     <copyfile src="tools/build-pac.sh" dest="build-pac.sh" />
   </project>
   <project path="vendor/qcom/opensource/display-frameworks" name="android_vendor_qcom_opensource_display-frameworks" remote="pac" />
